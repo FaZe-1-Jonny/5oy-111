@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Nunito;
+}
+.nav{
+    background-color: #0C0E18;
+    backdrop-filter: blur(80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 57px 20px 40px;
+}
+.nav-left{
+    gap: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right{
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left ul li ul{
+    background-color: #232028;
+    box-shadow: 0px 0px 11px 0px #FFFFFF;
+    border-radius: 10px;
+    width: 119px;
+    height: 131px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 11px 9px 12px;
+}
+.nav-left ul li ul{
+    position: absolute;
+    top: 60px;
+    left: 270px;
+    display: none;
+}
+.nav-left ul li ul li{
+    margin-top: 11.5px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #030303;
+    padding: 2px 5px 2px 7px;
+    border-radius: 20px;
+}
+.nav-left ul li ul li:hover{
+    color: #232028;
+    background-color: #BFAFF2;
+}
+.nav-left ul li:hover > ul{
+    display: initial;
+}
+.nav-left ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+}
+    .nav-left h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.right-reg{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+    color: white;
+    padding: 9px 66px;
+    border: none;
+    background-color: #0C0E18;
+    color: white;
+}
+.right-btn{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding: 9px 66px;
+    border: none;
+    background-color: #0C0E18;
+    color: white;
+}
+.right-reg:hover, .right-btn:hover{
+    background-color: #BFAFF2;
+    color: #333333;
+    border-radius: 15px;
+}
+.container{
+    background-color: #101220;
+    width: 100%;
+    height: 874px;
+    
+}
+.container .container-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container .container-cards .card{
+    padding: 141px 40px 0px 40px;
+}
+.card .info{
+    top: -50px;
+    padding: 59px 16px 33px 16px;
+    text-align: center;
+    background-color: #232028;
+    border-radius: 32px;
+    width: 280px;
+    height: 260px;
+}
+.card .info h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+    color: white;
+}
+.card .info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C0E18;
+    padding: 20px 40px;
+}
+.footer .s-medias{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.footer h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.footer .s-medias p{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
